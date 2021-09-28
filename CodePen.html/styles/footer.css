@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    columns: 4;
+    background-color: black;
+    height: 173px;
+    width: 1519px;
+}
+
+.sombra {
+    float:left;
+    background-color: rgba(46, 44, 44, 0.938);
+    margin-left: -20px;
+    width: 124px;
+    height: 462px;
+    margin-left: -127px;
+    margin-top: 67px;
+    align-content: flex-end;
+ }

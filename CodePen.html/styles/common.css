@@ -1,0 +1,43 @@
+/*estilos comunes páginas*/
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    width: 660px;
+    color:gray;
+}
+
+h2 {
+    font-size: 1.9em;
+    color:gray;
+}
+h4 {
+    font-size: 1.40em;
+    color: white;
+    font-weight: bold;
+    margin-left: -122px;
+    /*margin-top: 79px;*/
+    height: 62px;
+    width: 500px;
+}
+
+.hero-section-right-text {
+    color:rgb(187, 187, 236);
+}
+
+.hero-section-right-text-up {
+    color:white;
+    font-weight: bold;
+}
+
+.footer-efect {
+    font-weight: bold;
+    font-family:"Telefon Black", Sans-Serif;
+}
+

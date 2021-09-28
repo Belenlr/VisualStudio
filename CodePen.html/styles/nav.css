@@ -1,0 +1,257 @@
+/*estilos comunes de navegación*/
+
+.navigation-wrapper {
+    margin-bottom: 0px;
+    padding-bottom: -10;
+    margin-left: 0px;
+    height: 94px;
+    padding-top: 22px;
+    padding-bottom: 0px;
+    background-color:black;
+    color:white;
+    /*flexbox cantainer*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 1519.200;
+}
+
+.navigation-wrapper> .left-column {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr; 
+}
+
+/* Left Column Styles */
+.navigation-wrapper> .left-column> .column-right-left-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -337px;
+}
+
+.navigation-wrapper> .left-column> .column-right-left-column> .explore{
+    align-items: center;
+    color: rgb(199, 199, 36);
+    width: 520px;
+    text-align: center;
+    height: -28px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+.navigation-wrapper> .left-column> .column-right-left-column> .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 42px;
+    width: 500px;
+    margin-left: -424px;
+}
+
+
+.navigation-wrapper> .left-column>.banner-image  {
+    display: flex;
+    justify-content: left;
+}
+
+.navigation-wrapper> .left-column>.banner-image img {
+    width: 243px;
+    height: 122px;
+    margin-left: 14px;
+    margin-top: 75px;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -300px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.column-right-left-column>.links-wrapper> .nav-link {
+    width: 80px;
+    text-align: center;
+}
+
+.column-right-left-column> .links-wrapper> .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.column-right-left-column> .links-wrapper> .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:140px;
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+
+/* items del menu */
+   
+#menu ul> .li {
+    color:#cbcbcb;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+   
+#menu ul li a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* enlaces del menu */
+   
+#menu ul a {
+    display:block;
+    color:whitesmoke;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight: bold;
+}
+
+/* items del menu */
+   
+ #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+   
+/* efecto al pasar el ratón por los items del menu */
+   
+#menu ul li a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* menu desplegable */
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: -170%;
+    left: 0;
+    padding: 100px;
+}
+   
+/* items del menu desplegable */
+   
+ #menu ul ul li {
+    float:none;
+    width:150px
+}
+   
+/* enlaces de los items del menu desplegable */
+   
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px; 
+}
+
+#menu ul ul a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+   
+/* items del menu desplegable al pasar el ratón */
+   
+#menu ul li:hover > ul {
+    display:block;
+}
+
+
+
+/* Right Column Styles */
+
+.navigation-wrapper> .right-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 42px;
+    margin-left: -109px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 21px;
+    margin-top: 18px;
+}
+
+
+.navigation-wrapper> .right-column>.icon  {
+    display: flex;
+    justify-content: left;
+    padding: 34px;
+    margin-top: -9px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/*Botones right wrapper*/
+
+.btn {
+    font-size: 0.6em;
+    background-color: rgb(75, 72, 72);        
+    color: white;
+    padding: 22px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgb(51, 50, 50);
+}
+
+.right-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+

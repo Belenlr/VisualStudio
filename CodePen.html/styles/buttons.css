@@ -1,0 +1,75 @@
+.right-btn-wrapper {
+    background-color: #454442;
+    color: white;
+    font-weight: bold;
+    padding: 12px 13px;
+    border: 1px solid #454442;
+    border-radius: 2px;
+    outline: none;
+    font-size: 0.9em;
+    margin-left: -3px;
+    text-align: center;
+    width: 105px;
+    height: 47px;
+}
+
+.right-btn-wrapper:active {
+    box-shadow: 5px 5px 30px rgb(138, 135, 145);
+}
+
+
+.hero-section-bottom-left {
+    background-color: rgb(50, 228, 50);
+    color: black;
+    
+    border: 1px solid rgb(50, 228, 50);
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;
+    font-size: 1.4em;
+    margin-left: 33px;
+    width: 265px;
+    height: 60px;
+    text-align: justify;
+    padding: 0px 6px 1px 0px;
+}
+
+.hero-section-bottom-left:active {
+    box-shadow: 5px 5px 30px rgb(138, 135, 145);
+}
+
+
+.hero-section-bottom-right {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;
+    font-size: 1.4em;
+    margin-left: -325px;
+    width: 192px;
+    height: 68px;
+    text-align: right;
+}
+
+.hero-section-bottom-right:active {
+    box-shadow: 5px 5px 30px rgb(138, 135, 145);
+}
+
+.footer-buttons {
+    /*background-color: #747371;*/
+    color:whitesmoke;
+    border: 1px solid rgba(169, 169, 169, 0.568);
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.2em;
+    text-align: center;
+    height: 56px;
+    width: 378px;
+    background: #454442;
+}
+
+.footer-buttons:active {
+    box-shadow: 5px 5px 30px rgb(138, 135, 145);
+}
